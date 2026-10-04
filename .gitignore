@@ -1,0 +1,98 @@
+# ================================
+# Build output
+# ================================
+build/
+out/
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# ================================
+# Visual Studio
+# ================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ================================
+# C/C++ build artifacts
+# ================================
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.ipch
+*.exp
+*.tlog
+*.lastbuildstate
+*.log
+
+# ================================
+# CMake
+# ================================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+
+# CMake generated Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# ================================
+# Ninja
+# ================================
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# ================================
+# VS Code
+# ================================
+.vscode/
+!.vscode/settings.json
+
+# ================================
+# OS files
+# ================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ================================
+# Temporary files
+# ================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ================================
+# Crash dumps
+# ================================
+*.dmp
+
+# ================================
+# Local configuration
+# ================================
+.env
+.env.*
+!.env.example
